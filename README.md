@@ -2,9 +2,11 @@
 
 This is very a simple demo of the implementation of **Socket.io** server on Node.js.
 
-We use the **Socket.io** chat example as based and added support por rooms.
+I use the **Socket.io** chat example as based and added support por rooms.
 
-You can see the original sample here: [Here](https://github.com/socketio/socket.io/tree/master/examples/chat)
+You can see the original sample [Here](https://github.com/socketio/socket.io/tree/master/examples/chat)
+
+I also have an iOS Demo Chat Client App for this server, you can see here: [DLSocketSimplyiOS] (https://github.com/daniel-lahoz/DLSocketSimplyiOS)
 
 ## How to use
 
