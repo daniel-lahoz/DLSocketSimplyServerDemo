@@ -6,7 +6,7 @@ I use the **Socket.io** chat example as based and added support por rooms.
 
 You can see the original sample [Here](https://github.com/socketio/socket.io/tree/master/examples/chat)
 
-I also have an iOS Demo Chat Client App for this server, you can see here: [DLSocketSimplyiOS] (https://github.com/daniel-lahoz/DLSocketSimplyiOS)
+I also have an iOS Demo Chat Client App for this server, you can see here: [DLSocketSimplyiOS](https://github.com/daniel-lahoz/DLSocketSimplyiOS)
 
 ## How to use
 
