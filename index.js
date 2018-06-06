@@ -33,7 +33,7 @@ io.on('connection', (socket) => {
     var username = infodicc.username;
     var roomname = infodicc.roomname;
 
-    console.log('Roomname = ' + roomname);
+    console.log('New User: ' + username +' on Roomname: ' + roomname);
     socket.join(roomname);
 
     // we store the username in the socket session for this client
