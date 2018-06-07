@@ -51,6 +51,7 @@ io.on('connection', (socket) => {
       // echo globally (all clients) that a person has connected
       socket.to(socket.roomname).emit('user joined', {
         username: socket.username,
+        roomname: socket.roomname,
         numUsers: numUsers
       });
 
@@ -90,6 +91,12 @@ io.on('connection', (socket) => {
     }
   });
 
+    // when the client emits 'ping', we send him an OK+
+    socket.on('ping', function() {
+      socket.emit('ping', {
+        status: 'OK+'
+      });
+    });
 
 });
 
